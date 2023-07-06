@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Flaskv1"
+    return "Hello from Flask v2"
 
 @app.route("/test")
 def test():
